@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; 
+}
+
+
+    section.slidePromos {
+
+    display: flex;
+    gap: 4rem;
+    font-size: 1.6rem;
+
+    div.promo-card{
+        background-color: bisque;
+
+        width: 40rem;
+        height: 38rem;
+        border-radius: .6rem;
+
+        overflow: hidden;
+
+        cursor: pointer;
+
+            img{
+        transition: filter, transform .4s ease-out 0s; 
+    }
+
+    img:hover{
+         filter: contrast(101%) /*Aumenta o contraste da imagem*/;
+         transform: scale(1.05) rotate(-0.1deg);
+    }
+    }
+
+
+}
+
+
+
