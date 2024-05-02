@@ -11,6 +11,7 @@ function Nav() {
       <div id="nav-menu">
         <ul>
           <li><Link to="/Produtos">Produtos</Link></li>
+          <li><Link to="/Contact">Contato</Link></li>
           <li><Link to="/Login">Login</Link></li>
         </ul>
       </div>

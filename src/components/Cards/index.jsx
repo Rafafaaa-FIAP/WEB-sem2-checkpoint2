@@ -1,4 +1,4 @@
-import './Card-style.css';
+import './styles.scss';
 
 function ProductCard({ product }) {
   return (
@@ -6,6 +6,7 @@ function ProductCard({ product }) {
       <img src={product.image} alt={product.name} />
       <h2>{product.name}</h2>
       <span>{product.price}</span>
+      <div className='card'></div>
     </div>
   );
 }

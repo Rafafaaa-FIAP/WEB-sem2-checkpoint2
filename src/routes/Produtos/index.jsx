@@ -1,5 +1,5 @@
-import ProductCard from '../components/Cards';
-
+import ProductCard from '../../components/Cards';
+import './styles.scss'
 
 function Produtos() {
   
