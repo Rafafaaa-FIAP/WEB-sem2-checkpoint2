@@ -5,27 +5,24 @@
 }
 
 ul.benefits-infos {
-    font-size: 1.6rem;
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 6.25rem;
     width: 100%;
 
     
     li.infos{
         display: flex;
         align-items: center;
-        gap: 1.2rem;
+        gap: 0.7rem;
 
         p{
             text-align: center;
-            font-size: 1.6rem;
-            
         }
 
         .icon{
             color: rgb(20, 19, 17);
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
 
     }
