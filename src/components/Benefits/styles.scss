@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul.benefits-infos {
+    display: flex;
+    justify-content: center;
+    gap: 6.25rem;
+    width: 100%;
+
+    
+    li.infos{
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+
+        p{
+            text-align: center;
+        }
+
+        .icon{
+            color: rgb(20, 19, 17);
+            font-size: 1.8rem;
+        }
+
+    }
+}
