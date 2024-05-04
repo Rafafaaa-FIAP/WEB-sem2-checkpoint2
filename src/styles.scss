@@ -47,7 +47,12 @@ div.app-home{
   align-items: center;
 
   gap: 2.5rem;
-  padding: 2.5rem;
+  padding: 0 0 2.8rem 0;
+}
+
+div.new{
+  display: flex;
+  gap: 60px;
 }
 
 @media (min-width: 1920px) {
