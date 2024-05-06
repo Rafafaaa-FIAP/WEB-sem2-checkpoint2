@@ -12,20 +12,20 @@ function Produtos() {
     },
 
     {
-      id: 1,
+      id: 2,
       name: 'Guitarra',
       image: 'src/assets/images/guitarra1.jpg',
       price: 'Buy: $500',
     },
     {
-      id: 1,
+      id: 3,
       name: 'Guitarra',
       image: 'src/assets/images/guitarra1.jpg',
       price: 'Buy: $500',
     },
 
     {
-      id: 1,
+      id: 4,
       name: 'Guitarra',
       image: 'src/assets/images/guitarra1.jpg',
       price: 'Buy: $500',
