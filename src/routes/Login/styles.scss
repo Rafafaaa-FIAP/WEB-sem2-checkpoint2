@@ -7,4 +7,17 @@ div#login-page {
   h1 {
     text-align: center;
   }
+
+  .text-field {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  button {
+    width: 20%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: var(--colors-1-base);
+    color: var(--colors-text-on-color);
+  }
 }
