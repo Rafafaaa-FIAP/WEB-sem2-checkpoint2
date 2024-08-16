@@ -8,6 +8,7 @@ function hashCredentials(username, password) {
 }
 
 function Login() {
+  const navigate = useNavigate();
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -18,7 +19,7 @@ function Login() {
 
     localStorage.setItem('credentials', hashedCredentials);
 
-    window.location.href = '/Produtos';
+    navigate('/Produtos');
     }
     else {
       alert('Tente username: admin e senha: 123')
