@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 import App from '../App'
 import Error from './Error'
@@ -7,7 +7,7 @@ import Produtos from './Produtos'
 import Login from './Login'
 import Contact from './Contact'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
