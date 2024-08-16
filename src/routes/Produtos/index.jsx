@@ -1,7 +1,7 @@
 import ProductCard from '../../components/Cards';
 import './styles.scss'
 
-import guitarra from 'src/assets/images/guitarra1.jpg';
+import guitarra from '../../assets/images/guitarra1.jpg';
 
 function Produtos() {
   const products = [
