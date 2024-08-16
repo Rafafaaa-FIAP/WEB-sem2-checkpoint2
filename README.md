@@ -25,27 +25,27 @@ Este projeto utilizou as seguintes tecnologias e ferramentas:
 
 ## :calling: Funcionalidades
 
-### Home:
+### Home
 * Exibe um título e slideshow de imagens relacionadas ao tema.
 * Inclui conteúdo textual sobre o tema.
 * Apresenta cartões de produtos mostrando imagens (importadas), descrição e preço.
 
-### Navegação (Nav):
+### Navegação (Nav)
 * Possui um menu de navegação dinâmico para facilitar a navegação no site.
 
-### Rodapé (Footer):
+### Rodapé (Footer)
 * Inclui ícones de mídia social (Facebook, Instagram, LinkedIn) usando React Icons.
 * Exibe o e-mail de contato.
 
-### Produtos:
+### Produtos
 * Lista produtos recuperados de um arquivo JSON em formato de tabela.
 * Oferece botões para adicionar, editar e excluir produtos.
 * Consome dados de produtos de um arquivo JSON.
 
-### Contato:
+### Contato
 * Contém um formulário de contato com campos para nome, e-mail e descrição.
 
-### Login:
+### Login
 * Requer entrada de nome de usuário e senha.
 * Armazena credenciais criptografadas na sessionStorage.
 * Fornece funcionalidade de logout para fechar a sessionStorage.
